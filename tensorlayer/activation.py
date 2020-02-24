@@ -361,6 +361,7 @@ def mish(x):
     https://arxiv.org/abs/1908.08681
 
     """
+    
     return x * tf.math.tanh(tf.math.softplus(x))
 
 
